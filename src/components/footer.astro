@@ -1,0 +1,40 @@
+---
+const currentYear = new Date().getFullYear();
+---
+<footer>
+  <div class="footer-content">
+    <p>&copy; {currentYear} Dennis Sarniske.&nbspAll rights reserved.</p>
+    <nav>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Twitter</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  footer { /* VERY JANKY FIX, SHOULD PROBABLY CLEAN UP LATER!!! */
+    padding: 2rem;
+    background: #333;
+    color: white;
+    text-align: center;
+    margin-top: auto; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  nav a {
+    color: #ffd700;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
