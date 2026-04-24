@@ -3,6 +3,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://dsarn.github.io',
-    base: '/dsarn.github.io'
+    site: 'https://dsarn.github.io'
 });
